@@ -1,0 +1,155 @@
+{
+  "name": "VISAGINAS-WEB",
+  "type": "directory",
+  "children": [
+    {
+      "name": ".svelte-kit",
+      "type": "directory",
+      "note": "Generated files, don't edit manually"
+    },
+    {
+      "name": "node_modules",
+      "type": "directory",
+      "note": "Node.js dependencies, created by npm install"
+    },
+    {
+      "name": "src",
+      "type": "directory",
+      "children": [
+        {
+          "name": "app.css",
+          "type": "file",
+          "description": "Global CSS styles for the application"
+        },
+        {
+          "name": "app.html",
+          "type": "file",
+          "description": "HTML template for all pages"
+        },
+        {
+          "name": "lib",
+          "type": "directory",
+          "description": "Reusable components and utility functions",
+          "children": [
+            {
+              "name": "components",
+              "type": "directory",
+              "description": "Reusable UI components"
+            },
+            {
+              "name": "utils",
+              "type": "directory",
+              "description": "Utility functions and helpers"
+            }
+          ]
+        },
+        {
+          "name": "locales",
+          "type": "directory",
+          "description": "Translation files for i18n",
+          "children": [
+            {
+              "name": "en.json",
+              "type": "file",
+              "description": "English translations"
+            },
+            {
+              "name": "lt.json",
+              "type": "file",
+              "description": "Lithuanian translations"
+            },
+            {
+              "name": "ru.json",
+              "type": "file",
+              "description": "Russian translations"
+            }
+          ]
+        },
+        {
+          "name": "routes",
+          "type": "directory",
+          "description": "SvelteKit routes/pages",
+          "children": [
+            {
+              "name": "+layout.svelte",
+              "type": "file",
+              "description": "Main layout for all pages"
+            },
+            {
+              "name": "+page.svelte",
+              "type": "file",
+              "description": "Home page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "static",
+      "type": "directory",
+      "description": "Static assets like images",
+      "children": [
+        {
+          "name": "visaginas-bg.webp",
+          "type": "file",
+          "description": "Background image for the site"
+        },
+        {
+          "name": "favicon.png",
+          "type": "file",
+          "description": "Site favicon"
+        }
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "description": "Specifies files to be ignored by Git"
+    },
+    {
+      "name": "deploy-netlify.bat",
+      "type": "file",
+      "description": "Automatic script for deploying to Netlify"
+    },
+    {
+      "name": "netlify.toml",
+      "type": "file",
+      "description": "Netlify configuration file"
+    },
+    {
+      "name": "package.json",
+      "type": "file",
+      "description": "Node.js dependencies and scripts"
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file",
+      "description": "Exact versions of dependencies"
+    },
+    {
+      "name": "postcss.config.js",
+      "type": "file",
+      "description": "PostCSS configuration for styling"
+    },
+    {
+      "name": "svelte.config.js",
+      "type": "file",
+      "description": "SvelteKit configuration"
+    },
+    {
+      "name": "tailwind.config.js",
+      "type": "file",
+      "description": "TailwindCSS configuration"
+    },
+    {
+      "name": "tsconfig.json",
+      "type": "file",
+      "description": "TypeScript configuration"
+    },
+    {
+      "name": "vite.config.js",
+      "type": "file",
+      "description": "Vite bundler configuration"
+    }
+  ]
+}
